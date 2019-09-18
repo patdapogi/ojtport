@@ -157,7 +157,7 @@
             <a href="./index.php">
                 <img class="navbar-brand" src="./assets/images/portal_logo.png" width="50px" height="58px"/>
             </a>
-            <p class="title">dasdasdasdasdasdas</p>
+            <p class="title">ABCD</p>
         </nav>
         <div class="container">
             <div class="portal-content">
