@@ -13,8 +13,7 @@ pipeline {
                  pwd
                  whoami
                  ls -alt
-                 sudo service httpd status
-                 httpd -v
+                 sudo service httpd status                 
                 '''
             }
         }
