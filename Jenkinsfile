@@ -20,7 +20,10 @@ pipeline {
         stage('Build') {
             steps {
                 echo '> Test 2 ...'
-                sh 'pwd'
+                sh '''
+                sudo service httpd status
+                ls -alt
+                '''
             }
         }
         stage('Push') {
