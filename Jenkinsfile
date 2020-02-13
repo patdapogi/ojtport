@@ -14,6 +14,7 @@ pipeline {
                  whoami
                  ls -alt
                  sudo service httpd status
+                 httpd -v
                 '''
             }
         }
