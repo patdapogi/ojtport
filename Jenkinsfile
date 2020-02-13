@@ -12,8 +12,7 @@ pipeline {
                 sh '''
                  pwd
                  whoami
-                 ls -alt
-                 sudo service httpd status                 
+                 ls -alt                                  
                 '''
             }
         }
