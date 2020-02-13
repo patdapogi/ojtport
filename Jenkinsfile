@@ -9,7 +9,11 @@ pipeline {
         stage('Git') {
             steps {
                 echo '> Test 1 ...'
-                sh 'pwd'
+                sh '''
+                 pwd
+                 whoami
+                 ls -alt
+                '''
             }
         }
         stage('Build') {
