@@ -11,8 +11,7 @@ pipeline {
                 echo '> Test 1 ...'
                 sh '''
                  pwd
-                 whoami
-                 ls -alt                                  
+                 whoami                                                
                 '''
             }
         }
